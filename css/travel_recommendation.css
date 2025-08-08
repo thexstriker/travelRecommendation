@@ -1,0 +1,31 @@
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+
+.hero {
+    background-image: url(travel.jpg);
+    background-size: cover;
+    filter: brightness(1);
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+
+.container {
+    display: flex;
+    align-items: baseline;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
