@@ -1,27 +1,130 @@
 
-h1 {
-    font-weight: bold;
-    font-size: 60px;
-}
-
 body {
     margin: 0px;
 }
 
+.logo {
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+}
 
+li {
+    display: inline-block;
+}
 
+li a {
+    color: black;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-right: 25px;
+    text-decoration: none;
+}
 
-.hero {
-    background-image: url(travel.jpg);
-    background-size: cover;
-    filter: brightness(1);
-    padding-top: 400px;
-    padding-bottom: 400px;
+li a:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+div h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+div h2 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+div p {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.hero {
+    padding-left: 4rem;
+    padding-top: 2rem;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
 .container {
     display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+button {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 8px;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.aboutUs {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.title {
+    border: 1px black solid;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+}
+
+
+.form {
+    display:flex;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.container2 {
+    display: inline-block;
     align-items: baseline;
 
     margin-left: auto;
@@ -29,3 +132,34 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+.formBox {
+    display:block;
+    width: 500px;
+    margin-right: 4rem;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.formBox label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.formBox input,
+.formBox textArea {
+    font-family: 'Times New Roman', Times, serif;
+
+    width: 80%; /* makes input full width of form */
+    padding: 10px 15px; /* comfortable padding */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+

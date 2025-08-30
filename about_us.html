@@ -2,34 +2,63 @@
 <html lang="en">
 <head>
     <title>Travel Recommendation</title>
+
+    <link rel="stylesheet" href="./css/travel_recommendation.css">
 </head>
 
 <body>
     <nav>
-        <h1>TravelRec</h1>
+        <div>
+            <img src="./img/airplane.webp" alt="logo" width="80" height="80">
+            <h2 class="logo">TravelRec</h2>
+        </div>
 
-        <a href="./travel_recommendation.html">Home</a>
-        <a href="./about_us.html">About Us</a>
-        <a href="./contact_us.html">Contact Us</a>
-        <input type="text" placeholder="Enter a destination or keyword">
-        <button>Search</button>
-        <button>Clear</button>
+        <ul>
+            <li><a href="./travel_recommendation.html">Home</a></li>
+            <li><a href="./about_us.html">About Us</a></li>
+            <li><a href="./contact_us.html">Contact Us</a></li>
+        </ul>
+
+        <ul class="searchBar">
+            <li><input type="text" placeholder="Enter a destination or keyword"></li>
+            <li><button>Search</button></li>
+            <li><button>Clear</button></li>
+        </ul>
     </nav>
 
-    <h1>About Us</h1>
-    <p> Welcome to our company!
-        We are a team of passionate individuals that work together
-        to serve our customers with engaging travel detail.
-        We value trust, reliability, and honesty in our policy!
-    </p>
+    <div class="hero">
+        <div class="container">
+            <h1>About Us</h1>
+        </div>
 
-    <h2>Our Team</h2>
-    <h3>John Doe</h3>
-    <p>John is responsible for</p>
-    <h3>Celina Thomas</h3>
-    <p>Celina Thomas is responsible for</p>
-    <h3>Mike Tysen</h3>
-    <p>Mike Tysen is responsible for</p>
+        <div class="container">
+            <p>We are a passionate team dedicated to delivering innovative solutions and exceptional service. Our mission is to empower our clients through creativity, expertise, and a commitment to excellence. We value collaboration, integrity, and continuous growth, striving to make a positive impact in everything we do.
+            </p>
+        </div>
+ 
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="aboutUs">
+                <p class="name">Sean Doe</p>
+                <p>Sean is responsible for...</p>
+                <p class="title">CEO</p>
+            </div>
+
+            <div class="aboutUs">
+                <p class="name">Pawn Doe</p>
+                <p>Pawn is responsible for...</p>
+                <p class="title">CFO</p>
+            </div>
+
+            <div class="aboutUs">
+                <p class="name">Fawn Doe</p>
+                <p>Fawn is responsible for...</p>
+                <p class="title">COO</p>
+            </div>
+
+        </div>
+        
+    </div>
 
 
 
