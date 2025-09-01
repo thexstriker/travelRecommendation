@@ -61,17 +61,19 @@ div p {
 
 
 .hero {
+    display: inline-block;
     padding-left: 4rem;
     padding-top: 2rem;
     background-image: url(cover.jpg);
     background-size: cover;
     height: 500px;
+    width: 95.81%;
 }
 
 .container {
-    display: flex;
+    display: inline-block;
     align-items: baseline;
-    
+    justify-content: space-between;
 
     margin-left: auto;
     margin-right: auto;
@@ -87,6 +89,45 @@ div p {
     margin-right: auto;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+
+.searchResults {
+    float: right;
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.infoPop {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2rem;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+}
+
+.infoPop h3 {
+    padding-left: 1rem;
+}
+
+.infoPop img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.infoPop p {
+    background-color: rgba(148, 148, 148, 0);
+}
+
+.infoPop button {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 button {
