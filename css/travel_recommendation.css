@@ -59,9 +59,20 @@ div p {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.aboutCover {
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 95.81%;
+}
 
 .hero {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     padding-left: 4rem;
     padding-top: 2rem;
     background-image: url(cover.jpg);
@@ -93,20 +104,18 @@ div p {
 
 
 .searchResults {
-    float: right;
-    display: inline-block;
     padding-left: 2rem;
     padding-right: 4rem;
 }
 
 .infoPop {
+    float: right;
     border: 1px solid black;
     display: inline-block;
     margin: 2rem;
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
-    width: auto;
-    height: auto;
+    width: 500px;
 }
 
 .infoPop h3 {
